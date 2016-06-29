@@ -1,0 +1,18 @@
+#footer
+{
+    border-top: #003662 1px solid;
+    background: #daecf5;
+    padding: 70px 0;
+}
+#footer .logo
+{
+    float: left;
+}
+#footer .logo a
+{
+    background: url("/wp-content/themes/tmz_ademario/assets/imgs/footer_logo.png") no-repeat;
+    width: 412px;
+    height: 119px;
+    display: block;
+    font-size: 0;
+}
