@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="news">
+<div class="news clearfix">
 
     <div class="pre-news-title">
 

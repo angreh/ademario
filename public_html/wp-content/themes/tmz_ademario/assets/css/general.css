@@ -11,6 +11,11 @@
     margin: 0 auto;
     clear: both;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* PAGINATION : BEGIN */
 .navigation li a,
 .navigation li a:hover,
