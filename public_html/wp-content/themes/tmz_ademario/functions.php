@@ -76,8 +76,3 @@ function wpbeginner_numeric_posts_nav() {
  * Suporte a imagens de destaque habilitada
  */
 add_theme_support( 'post-thumbnails' );
-
-/**
- * Seta tamanho da imagem de destaque
- */
-set_post_thumbnail_size( 50, 50 );

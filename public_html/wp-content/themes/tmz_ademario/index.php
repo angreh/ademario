@@ -1,51 +1,41 @@
-<html>
-<head>
+<?php get_header(); ?>
 
-    <meta charset="UTF-8">
+<div class="news">
 
-    <!-- STYLES -->
-    <link href="/wp-content/themes/tmz_ademario/style.css" rel="stylesheet">
+    <div class="pre-news-title">
 
-</head>
-<body>
-    <div id="header">
-        <div class="container">
-
-            <div class="pic"></div>
-            <div class="logo"></div>
-
-            <div class="menu-wrapper">
-                <?php wp_nav_menu(); ?>
-                <div class="header-face-icon"><a href="/"></a></div>
-            </div>
-
+        <div class="up">
+            Notícias <strong>Ademário</strong>
         </div>
-    </div><!-- #header -->
 
-    <div id="body">
-        <div class="container">
-            <div class="posts">
-            <?php if (have_posts()) : while (have_posts()): the_post(); ?>
-                <div class="post">
+        <hr>
+        <div class="down">
+            GOVERNO QUE GOSTA DA GENTE
+        </div>
+        <hr class="shadow">
+
+    </div><!-- pre-news-title -->
+
+    <div class="posts">
+        <?php if (have_posts()) : while (have_posts()): the_post(); ?>
+            <div class="post" onclick="window.location.href='<?php the_permalink(); ?>'">
+                <div class="spacer">
 
                     <div class="image"><?php the_post_thumbnail(); ?></div>
                     <div class="title"><?php the_title(); ?></div>
-                    <div class="content"><?php the_excerpt(); ?></div>
+                    <div class="content"><p><?php the_excerpt(); ?></p></div>
+
+                    <div class="controllers">
+                        <div class="read-more">Leia mais</div>
+                    </div>
 
                 </div>
-            <?php endwhile; endif; ?>
-            </div><!-- .posts -->
+            </div>
+        <?php endwhile; endif; ?>
+    </div><!-- .posts -->
 
-            <br />
-            <br />
+</div><!-- .news -->
 
-            <?php wpbeginner_numeric_posts_nav(); ?>
-        </div>
-    </div>
+<?php wpbeginner_numeric_posts_nav(); ?>
 
-
-    <div id="footer">
-        #footer
-    </div><!-- #footer -->
-</body>
-</html>
+<?php get_footer(); ?>

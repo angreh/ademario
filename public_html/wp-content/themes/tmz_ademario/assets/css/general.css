@@ -2,12 +2,14 @@
 
 * {
     font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #003662;
 }
 .container
 {
     position: relative;
     width: 1060px;
     margin: 0 auto;
+    clear: both;
 }
 /* PAGINATION : BEGIN */
 .navigation li a,

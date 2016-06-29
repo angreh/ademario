@@ -1,0 +1,30 @@
+#body .pre-news-title .up
+{
+    font-size: 2.1em;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0 20px;
+    letter-spacing: -0.07em;
+    margin-top: 50px;
+}
+#body .pre-news-title .up strong
+{
+    font-weight: 700;
+}
+#body .pre-news-title hr
+{
+    border: none;
+    height: 0;
+    border-top: 1px #e9e9e9 solid;
+}
+#body .pre-news-title hr.shadow
+{
+    border-bottom: 8px #fbfbfb solid;
+}
+#body .pre-news-title .down
+{
+    padding: 0 20px;
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: -0.07em;
+}

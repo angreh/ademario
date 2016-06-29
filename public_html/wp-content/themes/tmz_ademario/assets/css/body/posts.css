@@ -1,0 +1,136 @@
+#body .posts
+{
+    padding: 30px 0 10px;
+}
+#body .posts .post
+{
+    width: 49.99%;
+    float: left;
+    margin-bottom: 20px;
+    height: 490px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#body .posts .post:hover
+{
+    background: #e9e9e9;
+}
+#body .posts .post .spacer
+{
+    position: relative;
+    padding: 20px;
+    height: 450px;
+}
+#body .posts .post .image
+{
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding: 47.5% 0 0 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#body .posts .post .image img
+{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#body .posts .post .title
+{
+    font-size: 2.4em;
+    font-weight: 700;
+}
+#body .posts .post .content
+{
+    margin-top: 10px;
+}
+#body .posts .post .content p
+{
+    letter-spacing: -0.07em;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+#body .posts .post .read-more
+{
+    margin-top: 15px;
+    padding-right: 34px;
+    letter-spacing: -0.06em;
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+    font-size: 1.1em;
+    background: url("/wp-content/themes/tmz_ademario/assets/imgs/body_plus.png") no-repeat right;
+}
+/* single */
+#body .single
+{
+    padding: 30px 0 10px;
+}
+#body .single .post
+{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#body .single .post .spacer
+{
+    position: relative;
+    padding: 20px;
+}
+#body .single .post .image
+{
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding: 47.5% 0 0 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#body .single .post .image img
+{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#body .single .post .title
+{
+    font-size: 2.4em;
+    font-weight: 700;
+}
+#body .single .post .content
+{
+    margin-top: 10px;
+}
+#body .single .post .content p
+{
+    letter-spacing: -0.04em;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+#body .single .post .read-more
+{
+    margin-top: 15px;
+    padding-right: 34px;
+    letter-spacing: -0.06em;
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+    font-size: 1.1em;
+    background: url("/wp-content/themes/tmz_ademario/assets/imgs/body_plus.png") no-repeat right;
+}
