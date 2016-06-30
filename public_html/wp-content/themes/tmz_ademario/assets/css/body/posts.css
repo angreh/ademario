@@ -7,7 +7,6 @@
     width: 49.99%;
     float: left;
     margin-bottom: 20px;
-    height: 490px;
     transition: background-color 0.3s;
 }
 #body .posts .post.list
@@ -22,28 +21,18 @@
 {
     position: relative;
     padding: 20px;
-    height: 450px;
 }
 #body .posts .post .image
 {
     display: block;
     width: 100%;
     position: relative;
-    height: 0;
-    padding: 47.5% 0 0 0;
-    overflow: hidden;
     margin-bottom: 10px;
 }
 #body .posts .post .image img
 {
-    position: absolute;
-    display: block;
-    max-width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    width: 100%;
+    height: auto;
 }
 #body .posts .post .title
 {
@@ -65,10 +54,9 @@
     margin-top: 15px;
     padding-right: 34px;
     letter-spacing: -0.06em;
-    position: absolute;
-    right: 30px;
-    bottom: -20px;
+    float: right;
     font-size: 1.1em;
+    margin-bottom: 20px;
     background: url("/wp-content/themes/tmz_ademario/assets/imgs/body_plus.png") no-repeat right;
 }
 /* single */
@@ -93,21 +81,11 @@
     display: block;
     width: 100%;
     position: relative;
-    height: 0;
-    padding: 47.5% 0 0 0;
-    overflow: hidden;
-    margin-bottom: 10px;
 }
 #body .single .post .image img
 {
-    position: absolute;
-    display: block;
-    max-width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    width: 100%;
+    height: auto;
 }
 #body .single .post .title
 {
