@@ -4,10 +4,18 @@
 }
 #body .posts .post
 {
-    width: 49.99%;
     float: left;
+    padding: 20px;
     margin-bottom: 20px;
     transition: background-color 0.3s;
+}
+@media (min-width: 650px)
+{
+    #body .posts .post
+    {
+        width: 49.99%;
+        padding: 0;
+    }
 }
 #body .posts .post.list
 {
