@@ -16,3 +16,31 @@
     display: block;
     font-size: 0;
 }
+#footer .right
+{
+    float: right;
+    width: 560px;
+}
+#footer .right .title
+{
+    color: #1386c4;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;
+}
+#footer .right .separator
+{
+    background-color: #1280c1;
+    height: 3px;
+    position: relative;
+}
+#footer .right .separator:before
+{
+    content: ' ';
+    height: 3px;
+    width: 900px;
+    background: #1280c1;
+    right: -900px;
+    top: 0;
+    position: absolute;
+}

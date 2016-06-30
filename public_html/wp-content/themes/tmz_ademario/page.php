@@ -7,7 +7,16 @@
             <div class="post">
                 <div class="spacer">
 
-                    <div class="title"><?php the_title(); ?></div>
+                    <div class="pre-news-title">
+
+                        <hr>
+                        <div class="down">
+                            <?php the_title(); ?>
+                        </div>
+                        <hr class="shadow">
+
+                    </div><!-- pre-news-title -->
+
                     <div class="content"><p><?php the_content(); ?></p></div>
 
                 </div>

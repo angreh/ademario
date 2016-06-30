@@ -3,7 +3,7 @@
 
 
     <div id="footer">
-        <div class="container">
+        <div class="container clearfix">
 
             <div class="left">
                 <div class="logo"><a href="/">Ademario Oliveira</a></div>
@@ -12,13 +12,14 @@
             <div class="right">
 
                 <div class="title">Contato</div>
-                <hr>
 
-                telefone
-                email
-                face
+                <div class="separator"></div>
 
-            </div>
+                (13) 0000 0000<br>
+                ademario@ademario.com.br<br>
+                fb.com/ademario.silvaoliveira
+
+            </div><!-- .right -->
 
         </div>
     </div><!-- #footer -->
