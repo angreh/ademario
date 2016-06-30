@@ -8,8 +8,11 @@
     float: left;
     margin-bottom: 20px;
     height: 490px;
-    cursor: pointer;
     transition: background-color 0.3s;
+}
+#body .posts .post.list
+{
+    cursor: pointer;
 }
 #body .posts .post:hover
 {
@@ -78,7 +81,6 @@
     width: 100%;
     float: left;
     margin-bottom: 20px;
-    cursor: pointer;
     transition: background-color 0.3s;
 }
 #body .single .post .spacer

@@ -1,0 +1,27 @@
+#body .wpcf7-form p
+{
+    color: #003662;
+    font-weight: 700 !important;
+}
+#body .wpcf7-form input.wpcf7-text,
+#body .wpcf7-form textarea.wpcf7-textarea
+{
+    width: 100%;
+    border: 2px solid #e9e9e9;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 20px;
+}
+#body .wpcf7-form input.wpcf7-submit
+{
+    background-color: #1386c4;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px;
+    float: right;
+    font-weight: 700;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}

@@ -18,7 +18,7 @@
 
     <div class="posts">
         <?php if (have_posts()) : while (have_posts()): the_post(); ?>
-            <div class="post" onclick="window.location.href='<?php the_permalink(); ?>'">
+            <div class="post list" onclick="window.location.href='<?php the_permalink(); ?>'">
                 <div class="spacer">
 
                     <div class="image"><?php the_post_thumbnail(); ?></div>
