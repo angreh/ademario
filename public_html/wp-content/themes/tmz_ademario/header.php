@@ -2,6 +2,7 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- STYLES -->
     <link href="/wp-content/themes/tmz_ademario/style.css" rel="stylesheet">
