@@ -1,0 +1,32 @@
+.ngg-album-compact
+{
+    width: 100%;
+    position: relative;
+}
+@media (min-width: 440px)
+{
+    .ngg-album-compact
+    {
+        width: 50%;
+    }
+}
+@media (min-width: 680px)
+{
+    .ngg-album-compact
+    {
+        width: 33.333%;
+    }
+}
+.ngg-album-gallery-image-counter
+{
+    display: none;
+}
+.ngg-album-compact img
+{
+    width: 100%;
+    height: auto;
+}
+.slideshowlink
+{
+    display: none;
+}
