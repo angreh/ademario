@@ -10,7 +10,7 @@
 
         <hr>
         <div class="down">
-            GOVERNO QUE GOSTA DA GENTE
+            O NOVO QUE SE FAZ PRESENTE
         </div>
         <hr class="shadow">
 
