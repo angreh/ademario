@@ -16,8 +16,9 @@
         <div class="logo"><a href="/">ADEMARIO</a></div>
 
         <div class="menu-wrapper">
-            <div class="home"><a href="/">HOME</a></div>
-            <?php wp_nav_menu(); ?>
+            <?php wp_nav_menu(array(
+                'menu' => 'header_menu'
+            )); ?>
             <div class="header-face-icon"><a href="https://www.facebook.com/ademario.silvaoliveira" target="_blank"></a></div>
         </div>
 

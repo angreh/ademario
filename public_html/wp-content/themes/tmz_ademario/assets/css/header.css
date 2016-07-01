@@ -74,15 +74,19 @@
         margin-right: 0;
     }
 }
+.menu-header_menu-container
+{
+    display: inline-block;
+}
 #header .menu-wrapper .home,
-#header .menu .page_item
+#header .menu .menu-item
 {
     width: auto;
     display: inline-block;
     float: left;
 }
 #header .menu-wrapper .home a,
-#header .menu .page_item a
+#header .menu .menu-item a
 {
     color: #ffffff;
     text-transform: uppercase;
@@ -93,7 +97,7 @@
     font-size: 1.3em;
 }
 #header .menu-wrapper .home a:after,
-#header .menu .page_item a:after
+#header .menu .menu-item a:after
 {
     content: '/';
     text-align: right;
