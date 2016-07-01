@@ -9,6 +9,24 @@
 </head>
 
 <body>
+
+<div id="mobile_bg"></div>
+<div id="mobile_menu">
+    <div class="mobile_container">
+        <a href="/" id="menu-logo"><img src="/wp-content/themes/tmz_ademario/assets/imgs/header_logo.png"></a>
+        <hr>
+        <?php
+
+        wp_nav_menu(
+            array(
+                'menu_class' => 'nav-menu-mobile',
+                'menu' => 'header_menu'
+            )
+        );
+        ?>
+    </div>
+</div><!-- #mobile_menu -->
+
 <div id="header">
     <div class="container">
 
@@ -16,11 +34,13 @@
         <div class="logo"><a href="/">ADEMARIO</a></div>
 
         <div class="menu-wrapper">
+            <a href="#" id="header_mobile_menu">MENU &blacktriangledown;</a>
             <?php wp_nav_menu(array(
                 'menu' => 'header_menu'
             )); ?>
             <div class="header-face-icon"><a href="https://www.facebook.com/ademario.silvaoliveira" target="_blank"></a></div>
         </div>
+
 
     </div>
 </div><!-- #header -->
