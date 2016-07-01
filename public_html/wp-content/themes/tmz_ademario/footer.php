@@ -2,7 +2,7 @@
     </div>
 
 
-    <div id="footer">
+        <div id="footer" xmlns="http://www.w3.org/1999/html">
         <div class="container clearfix">
 
             <div class="left">
@@ -15,9 +15,12 @@
 
                 <div class="separator"></div>
 
-                (13) 0000 0000<br>
-                ademario@ademario.com.br<br>
-                fb.com/ademario.silvaoliveira
+                <small>(13)</small> 3362 1037<br>
+                <strong>ademario</strong>@ademario.com.br<br>
+                <div class="footer-face-wrapper">
+                    <img src="/wp-content/themes/tmz_ademario/assets/imgs/footer_icon_face.png">
+                    <span>/<strong>ademario</strong>.silvaoliveira</span>
+                </div>
 
             </div><!-- .right -->
 
